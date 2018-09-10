@@ -1,0 +1,37 @@
+@import 'variables/colors';
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+.animations-container {
+  padding: 40px;
+}
+
+.title {
+  font-size: 36px;
+  color: $red;
+  margin-bottom: 50px;
+}
+
+.animation-name {
+  font-size: 24px;
+  width: 300px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.tab {
+  height: 50px;
+  border: 1px solid $red;
+  color: $red;
+
+  &:hover {
+    color: $red;
+  }
+
+  &.selected {
+    background-color: $red;
+    color: $white;
+  }
+}
